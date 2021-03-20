@@ -1,0 +1,74 @@
+author = "Sulzbach, Jogufe";
+onLoadName = "Conquest of Chernarus";
+onLoadMission = "Loading...";
+onLoadIntro = "Welcome to Chernarus!";
+loadScreen = "img\load.jpg";
+overviewPicture = "img\overview.jpg";
+overviewText = "Survive and Conquer Chernarus";
+
+class Header {
+  gameType = Coop;
+  minPlayers = 1;
+  maxPlayers = 10;
+};
+
+//-------------------------Respawn-------------------------//
+respawn = 20;
+respawnDelay = 15;
+respawnOnStart = 0;
+respawnTemplates[] = {};
+//-------------------------Respawn-------------------------//
+
+//-------------------------Options-------------------------//
+DisabledAI = 1;
+joinUnassigned = 1;
+forceRotorLibSimulation = 0;
+disableChannels[] = {0,1,2,3,4,5,6};
+enableDebugConsole = 1;
+showGPS = 0;
+showCompass = 1;
+showWatch = 1;
+saving = 1;
+//wreckLimit = 10;
+//corpseLimit = 20;
+//corpseRemovalMinTime = 300;
+//corpseRemovalMaxTime = 600;
+//showGroupIndicator = 1;
+//-------------------------Options-------------------------//
+
+
+/*class cfgFunctions {
+    #include "scripts\functions\cfgfunctions.hpp"
+};*/
+
+class CfgSounds {
+  /*sounds[] = {};
+  class base_radio {
+    name = "Radio Music 1";
+    sound[] = {sounds\radio1.ogg, db+50, 1};
+    titles[] = {0, ""};
+  };
+  class brifering_VO_01956 {
+    name = "";
+    sound[] = {sounds\briefering\VO_01956.ogg, db+80, 1};
+    titles[] = {0, ""};
+  };*/
+};
+
+class CfgMusic {
+  /*tracks[]={};
+  class military_complex {
+    name = "Military Complex";
+    sound[] = {\sound\military_complex.ogg, db+15, 1};
+    titles[] = {0, ""};
+  };*/
+};
+
+// Custom "End game"
+class CfgDebriefing {
+  class EndGameCustom {
+    title = "Conquest of Chernarus";
+    subtitle = "Sulzbach";
+    description = "Successfully finished!";
+  };
+};
