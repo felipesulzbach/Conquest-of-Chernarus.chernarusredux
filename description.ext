@@ -13,8 +13,8 @@ class Header {
 };
 
 //-------------------------Respawn-------------------------//
-respawn = 20;
-respawnDelay = 15;
+//respawn = 20;
+respawnDelay = 10;
 respawnOnStart = 0;
 respawnTemplates[] = {};
 //-------------------------Respawn-------------------------//
@@ -74,7 +74,7 @@ class CfgMusic {
 class CfgDebriefing {
   class EndGameCustom {
     title = "Conquest of Chernarus";
-    subtitle = "Sulzbach";
-    description = "Successfully finished!";
+    subtitle = "Thanks for playing!";
+    description = "Chernarus has been successfully conquered!";
   };
 };
