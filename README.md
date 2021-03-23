@@ -10,6 +10,7 @@ http://steamcommunity.com/sharedfiles/filedetails/?id=1229196780
 - [CUP Terrains - Core](https://steamcommunity.com/sharedfiles/filedetails/?id=583496184)
 - [Chernarus Redux](https://steamcommunity.com/sharedfiles/filedetails/?id=1128256978)
 - [@Horror_Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=1556296528)
+- [MrSanchez' Headlamps](https://steamcommunity.com/sharedfiles/filedetails/?id=930264602)
 
 
 - [Max_Zombies](https://steamcommunity.com/sharedfiles/filedetails/?id=1453853092)

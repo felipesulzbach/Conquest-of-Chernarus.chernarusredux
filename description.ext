@@ -42,8 +42,14 @@ saving = 1;
 };*/
 
 class CfgSounds {
-  /*sounds[] = {};
-  class base_radio {
+  sounds[] = {};
+  class intro_music
+	{
+		name = "intro_music";
+		sound[] = {sounds\intro_music.ogg, .5, 1.0};
+		titles[] = {0, ""};
+	};
+  /*class base_radio {
     name = "Radio Music 1";
     sound[] = {sounds\radio1.ogg, db+50, 1};
     titles[] = {0, ""};
