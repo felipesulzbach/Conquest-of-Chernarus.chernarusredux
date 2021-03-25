@@ -11,8 +11,9 @@ waitUntil {!isNil "curr_time"};
 if (!hasInterface) exitWith {};
 
 if ((!curr_time) or (_jip_enable<0)) then {
-    cutText ["Kamenka", "BLACK IN", 10];
-    playsound "intro_music";
+    //cutText ["Kamenka", "BLACK IN", 10];
+    //null = [["intro_music"], NULL, FALSE, ""] execVM "lib\play_sound.sqf";
+    playSound "intro_music";
 
     /* ----- how to use camera script -----------------------------------------------------------------------
     _camera_shot = [position_1_name, position_2_name, target_name, duration, zoom_level1, zoom_level_2, attached, x_rel_coord, y_rel_coord, z_rel_coord,last_shot] execVM "camera_work.sqf";
