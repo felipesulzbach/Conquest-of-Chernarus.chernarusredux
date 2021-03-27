@@ -1,4 +1,6 @@
-// Loads the saved loadout of the player
-[player, [missionNamespace, "inventory_var"]] call BIS_fnc_loadInventory;
+// loads the saved loadout of the player
+[player, [missionnamespace, "inventory_var"]] call BIS_fnc_loadinventory;
 
-_null = [false, player] execVM "lib\stamina.sqf";
+null=[] spawn {
+    _null = [false, player] execVM "lib\stamina.sqf";
+}

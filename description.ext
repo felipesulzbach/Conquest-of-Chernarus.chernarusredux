@@ -1,3 +1,4 @@
+//--------------------Main definitions--------------------//
 author = "Sulzbach, Jogufe";
 onLoadName = "Conquest of Chernarus";
 onLoadMission = "Loading...";
@@ -7,46 +8,38 @@ overviewPicture = "img\overview.jpg";
 overviewText = "Survive and Conquer Chernarus";
 
 class Header {
-  gameType = Coop;
+  gameType = Survive;
   minPlayers = 1;
   maxPlayers = 10;
 };
+//--------------------Main definitions--------------------//
 
-//-------------------------Respawn-------------------------//
-//respawn = 20;
-respawnDelay = 10;
+//-----------------------Game options----------------------//
 respawnOnStart = 0;
-respawnTemplates[] = {};
-//-------------------------Respawn-------------------------//
-
-//-------------------------Options-------------------------//
-DisabledAI = 1;
+disabledAI = 1;
 joinUnassigned = 1;
 forceRotorLibSimulation = 0;
 disableChannels[] = {0,1,2,3,4,5,6};
-enableDebugConsole = 1;
-showGPS = 0;
-showCompass = 1;
-showWatch = 1;
-saving = 1;
-//wreckLimit = 10;
-//corpseLimit = 20;
-//corpseRemovalMinTime = 300;
-//corpseRemovalMaxTime = 600;
-//showGroupIndicator = 1;
-//-------------------------Options-------------------------//
+aiKills = 0;
+//-----------------------Game options----------------------//
 
+//--------------------------Revive-------------------------//
+reviveMode = 1;
+reviveUnconsciousStateMode = 0;
+reviveRequiredTrait = 0;
+reviveRequiredItems = 0;
+reviveDelay = 6;
+reviveForceRespawnDelay = 3;
+//--------------------------Revive-------------------------//
 
-/*class cfgFunctions {
-    #include "scripts\functions\cfgfunctions.hpp"
-};*/
+//class cfgFunctions { #include "scripts\functions\cfgfunctions.hpp" };
 
 class CfgSounds {
   sounds[] = {};
   class intro_music
 	{
 		name = "intro_music";
-		sound[] = {sounds\intro_music.ogg, .5, 1.0};
+		sound[] = {sounds\intro_music.ogg, db+10, 1};
 		titles[] = {0, ""};
 	};
   /*class base_radio {
