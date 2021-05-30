@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=1647;
+		nextID=1675;
 	};
 	class Camera
 	{
-		pos[]={13311.411,16.498154,6135.0366};
-		dir[]={-0.70333219,-0.14680412,-0.69553751};
-		up[]={-0.10438299,0.9891656,-0.10322617};
-		aside[]={-0.70315576,0,0.71103591};
+		pos[]={2015.9811,31.301685,2265.4563};
+		dir[]={-0.90498281,-0.39797875,0.15039687};
+		up[]={-0.39259428,0.91739452,0.06524428};
+		aside[]={0.1639391,0,0.9864704};
 	};
 };
 binarizationWanted=0;
@@ -547,6 +547,19 @@ class AddonsMetaData
 		};
 	};
 };
+dlcs[]=
+{
+	"Expansion",
+	"Argo",
+	"Enoch",
+	"Oldman",
+	"Orange",
+	"Contact",
+	"Heli",
+	"Curator",
+	"AoW",
+	"SAN_Headlamp"
+};
 randomSeed=4754491;
 class ScenarioData
 {
@@ -685,7 +698,7 @@ class Mission
 			type="b_hq";
 			colorName="ColorBlue";
 			id=21;
-			atlOffset=0.14057398;
+			atlOffset=0.14057207;
 		};
 		class Item1
 		{
@@ -16579,7 +16592,7 @@ class Mission
 					};
 					id=13004;
 					type="Land_HistoricalPlaneDebris_03_F";
-					atlOffset=1.7285156;
+					atlOffset=1.7285151;
 				};
 				class Item15
 				{
@@ -16851,7 +16864,7 @@ class Mission
 					};
 					id=13015;
 					type="Land_Pillow_old_F";
-					atlOffset=0.0036077499;
+					atlOffset=0.0036053658;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16893,7 +16906,7 @@ class Mission
 					};
 					id=13016;
 					type="Land_Pillow_F";
-					atlOffset=0.0033078194;
+					atlOffset=0.0033121109;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -16935,7 +16948,7 @@ class Mission
 					};
 					id=13017;
 					type="Land_Ground_sheet_folded_yellow_F";
-					atlOffset=0.044495106;
+					atlOffset=0.044309139;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -17017,7 +17030,7 @@ class Mission
 					};
 					id=13019;
 					type="Land_cargo_addon02_V2_F";
-					atlOffset=0.11167383;
+					atlOffset=0.11086178;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -17098,7 +17111,7 @@ class Mission
 					};
 					id=13021;
 					type="Land_Laptop_02_unfolded_F";
-					atlOffset=0.63639688;
+					atlOffset=0.63621092;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -17404,7 +17417,7 @@ class Mission
 					};
 					id=12979;
 					type="Land_EmergencyBlanket_01_discarded_F";
-					atlOffset=0.0071778297;
+					atlOffset=0.0071802139;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -18261,7 +18274,7 @@ class Mission
 					};
 					id=26333;
 					type="Land_ConnectorTent_01_floor_dark_F";
-					atlOffset=0.016057968;
+					atlOffset=0.016093254;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -21392,7 +21405,7 @@ class Mission
 					};
 					id=26457;
 					type="BloodPool_01_Medium_New_F";
-					atlOffset=0.79818487;
+					atlOffset=0.79817486;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -21948,14 +21961,13 @@ class Mission
 						angles[]={0,0,0.0099949092};
 					};
 					side="Empty";
-					flags=4;
 					class Attributes
 					{
 						disableSimulation=1;
 					};
 					id=26481;
 					type="Head_Brain";
-					atlOffset=5.7220459e-006;
+					atlOffset=0.7995801;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -22185,7 +22197,7 @@ class Mission
 					};
 					id=26495;
 					type="corpse_mass";
-					atlOffset=0.039735317;
+					atlOffset=0.039739132;
 				};
 				class Item108
 				{
@@ -23247,7 +23259,7 @@ class Mission
 					};
 					id=43915;
 					type="Land_PierWooden_02_barrel_F";
-					atlOffset=0.49110889;
+					atlOffset=0.4911232;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -23288,7 +23300,7 @@ class Mission
 					};
 					id=43914;
 					type="Land_PierWooden_02_hut_F";
-					atlOffset=5.8750305;
+					atlOffset=5.8745499;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -112150,7 +112162,7 @@ class Mission
 					};
 					id=43578;
 					type="Newspaper_01_F";
-					atlOffset=0.23887968;
+					atlOffset=0.23888016;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -119649,7 +119661,7 @@ class Mission
 					};
 					id=43764;
 					type="Land_Axe_fire_F";
-					atlOffset=0.34006357;
+					atlOffset=0.34006453;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -122019,7 +122031,7 @@ class Mission
 					};
 					id=43565;
 					type="Land_Laptop_Intel_02_F";
-					atlOffset=0.46604109;
+					atlOffset=0.46565437;
 					class CustomAttributes
 					{
 						class Attribute0
@@ -122531,7 +122543,7 @@ class Mission
 					};
 					id=43577;
 					type="Land_File1_F";
-					atlOffset=0.20589972;
+					atlOffset=0.20611954;
 					class CustomAttributes
 					{
 						class Attribute0

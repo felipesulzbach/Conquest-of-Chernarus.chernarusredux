@@ -32,7 +32,9 @@ reviveDelay = 6;
 reviveForceRespawnDelay = 3;
 //--------------------------Revive-------------------------//
 
-//class cfgFunctions { #include "scripts\functions\cfgfunctions.hpp" };
+class cfgFunctions {
+  #include "functions\cfgfunctions.hpp"
+};
 
 class CfgSounds {
   sounds[] = {};
