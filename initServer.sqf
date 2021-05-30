@@ -15,3 +15,10 @@ remoteExec["endloadingScreen"];
 remoteExec["MIS_fnc_intro"];
 
 missionNamespace setVariable["run_init", true, true];
+
+// schedule flyby ambient jets
+[] spawn {
+    sleep (7200 + random 3600);
+    _justPlayers = allPlayers - entities "HeadlessClient_F";
+    (selectRandom _justPlayers) call MIS_flyBy;
+};

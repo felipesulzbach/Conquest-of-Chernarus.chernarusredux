@@ -5,4 +5,9 @@ class MISSION {
         file = "functions\intro";
         class intro {description = "Run Intro"};
     };
+
+    class ambient {
+        file = "functions\ambient";
+        class flyBy;
+    };
 };
