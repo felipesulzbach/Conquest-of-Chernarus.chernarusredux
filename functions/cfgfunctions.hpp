@@ -10,4 +10,9 @@ class MISSION {
         file = "functions\ambient";
         class flyBy;
     };
+
+    class common {
+        file = "functions\common";
+        class getAirVehicleClass;
+    };
 };
