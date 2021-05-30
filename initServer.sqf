@@ -1,10 +1,11 @@
 waitUntil{
+    _justPlayers = allPlayers - entities "HeadlessClient_F";
     _i = 0;
     {
         if (_x getVariable["loaded", false]) then {
             _i = _i + 1;
         }
-    } forEach allplayers;
+    } forEach _justPlayers;
     
     _i == count allplayers
 };
