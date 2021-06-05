@@ -10,4 +10,6 @@ _null = [] execVM "lib\earplugs.sqf";
 
 _null = [false, player] execVM "lib\stamina.sqf";
 
+player spawn MIS_fnc_ash;
+
 player setVariable["loaded", true, true];

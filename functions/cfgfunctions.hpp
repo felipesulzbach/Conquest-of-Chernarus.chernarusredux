@@ -9,6 +9,7 @@ class MISSION {
     class ambient {
         file = "functions\ambient";
         class flyBy;
+        class ash;
     };
 
     class common {
