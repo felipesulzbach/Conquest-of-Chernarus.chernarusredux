@@ -14,19 +14,5 @@ null=[] spawn {
     
     sleep 2;
     
-    _now = date;
-    _yer = str(_now select 0);
-    _month = str(_now select 1);
-    _day = str(_now select 2);
-    _hour = str(_now select 3);
-    _min = str(_now select 4);
-    
-    _date = _yer + "/" + _month + "/" + _day + " " + _hour + ":" + _min;
-    
-    null=[
-        "Chernarus",
-        "Kamenka city",
-        "",
-        _date
-    ] spawn BIS_fnc_infotext;
+    null = ["KAMENKA CITY", "Abandoned"] execVM "lib\intro_legend.sqf";
 }
