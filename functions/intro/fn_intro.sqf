@@ -1,7 +1,7 @@
 _null = [-1] execVM "lib\AL_intro\intro.sqf";
 
 null=[] spawn {
-    sleep 8;
+    sleep 1;
     player switchMove "Acts_welcomeOnHUB05_playerWalk_3";
     sleep 20;
     player switchMove "";

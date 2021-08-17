@@ -10,7 +10,7 @@ overviewText = "Survive and Conquer Chernarus";
 class Header {
   gameType = Survive;
   minPlayers = 1;
-  maxPlayers = 10;
+  maxPlayers = 5;
 };
 //--------------------Main definitions--------------------//
 
