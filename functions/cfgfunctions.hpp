@@ -10,6 +10,7 @@ class MISSION {
         file = "functions\ambient";
         class flyBy;
         class ash;
+        class hideLayer;
     };
 
     class common {
