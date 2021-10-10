@@ -1,4 +1,3 @@
-// by SULZBACH
 _soundname = _this select 0;
 _obj = _this select 1;
 _isaction = _this select 2;

@@ -16,5 +16,9 @@ class MISSION {
     class common {
         file = "functions\common";
         class getAirVehicleClass;
+        class recruitUnits;
+        class addMoney;
+        class vehicleDestroy;
+        class setTrader;
     };
 };

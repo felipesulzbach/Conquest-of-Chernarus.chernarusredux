@@ -1,15 +1,19 @@
 player createDiaryRecord [
     "Diary", [
-        "intel", "No ano de 2025 houve um grande colapso mundial. todas as nações viram suas economias despencarem.<br/>
-        Com o colapso, veio a guerra civil, a fome extrema, que se alastrou até o ano de 2028. Quando, em meio ao caos, surgiram grandes corporações que trouxeram uma nova esperança para a humanidade.<br/>
-        Surgia então o chamado 'Novo mundo', uma nova era da sociedade.<br/>
-        ...<br/>
-        A corporação X foi acusada de efetuar testes químicos e biológicos em seres humanos. A corporação nega todas as acusação.<br/>
-        Em 2031 ocorre um surto de uma nova variante do virus da raiva. O exército tenta conter a infecção isolando o laboratório mas em poucas semanas a doença se espalha nas maiores cidades.<br/>
-        Um ano após o contágio o pais inteiro encontra-se devastado, a infecção mata milhões de pessoas sobrando apenas alguns sobreviventes.<br/>
-        ...<br/>
-        Your mission is very simple...<br/>
+        "intel", "
+        Após o grande surto de uma nova doença desconhecida, Chernarus ficou isolado do resto do mundo. Muitos laboratórios tentaram entender o vírus e criar uma cura, porém qualquer tentativa foi em vão, em pouco tempo a doença se espalhou. Não há mais um lugar seguro.
+        <br/>
+        A origem do vírus nunca foi identificada. Alguns acusam o governo, outros acusam o exército, outros acreditam ser algum tipo de castigo divino como resposta as ações da humanidade.
+        <br/>
+        Em meio ao caos, muitas pessoas se uniram em uma tentativa desesperada de sobreviver, seguindo qualquer líder que prometesse algum tipo de segurança. Foi assim que surgiu um perigoso grupo extremista auto intitulado de 'Os Salvadores', expalhando medo e morte por onde passam. Aqueles que não se unirem aos seus ideais, buscando sua 'salvação' são punidos com a morte.
+        <br/>
+        Os rebeldes, um pequeno grupo formado pelo que restou do exército e alguns civis, enfrentam esse grupo lutando por liberdade na tentativa de trazer um pouco de humanidade e ordem ao caos em que vivem.
+        <br/>
+        <br/>
+        <br/>
+        Você faz parte do grupo rebelde e sua missão principal é libertar Chernarus.
+        <br/>
         <font color='#FF0000' size='15'>Survive and Conquest the Chernarus!</font>
-        <br/><br/><br/>Thanks for ALIAS scripts!<br/>"
+        "
     ]
 ];

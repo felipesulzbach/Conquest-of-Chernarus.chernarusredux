@@ -1,7 +1,3 @@
-/*
-Author: Sulzbach
-Description: Hide or show units in the layer to improve server performance.
-*/
 private ["_layername", "_flgHide"];
 
 _layername = _this select 0;
